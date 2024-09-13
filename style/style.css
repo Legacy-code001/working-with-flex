@@ -1,0 +1,38 @@
+.parent{
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    /* height: 400px; */
+    border: 1px solid red;
+    margin: 3px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child{
+    border: 1px solid green;
+    padding-left: 0;
+    margin: 5px;
+    background:rgb(173, 173, 209);
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+/* .child:nth-child(1){
+    flex-grow: 2;
+}
+.child:nth-child(2){
+    flex-grow: 3;
+}
+.child:nth-child(3){
+    flex-grow: 1;
+} */
